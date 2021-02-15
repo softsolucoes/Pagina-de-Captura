@@ -110,3 +110,26 @@ footer{
     font-size: 24px;
     
 }
+
+@media (max-width: 600px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .description {
+        display: inline-block;
+        text-align: justify;
+        color: white;
+        max-width: 90%;
+
+    }
+    .description h3{
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+
+
+}
