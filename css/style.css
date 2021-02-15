@@ -122,7 +122,8 @@ footer{
         display: inline-block;
         text-align: justify;
         color: white;
-        max-width: 90%;
+        max-width: 100%;
+        margin-left: 0;
 
     }
     .description h3{
@@ -130,6 +131,7 @@ footer{
         margin-top: 10px;
         
     }
+    
 
 
 }
